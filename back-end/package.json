@@ -11,6 +11,12 @@
     "deploy": "sanity deploy",
     "deploy-graphql": "sanity graphql deploy"
   },
+  "engines": {
+    "node": "22.x"
+  },
+  "overrides": {
+    "yargs": "17.7.3"
+  },
   "keywords": [
     "sanity"
   ],
@@ -26,7 +32,8 @@
     "@types/react": "^19.1",
     "eslint": "^9.28",
     "prettier": "^3.5",
-    "typescript": "^5.8"
+    "typescript": "^5.8",
+    "yargs": "17.7.3"
   },
   "prettier": {
     "semi": false,

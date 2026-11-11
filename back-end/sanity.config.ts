@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'Newland IT-Solutions Website',
 
   projectId: 'tr73byhf',
-  dataset: 'development',
+  dataset: process.env.SANITY_DATASET || 'production',
 
   plugins: [structureTool(), visionTool()],
 

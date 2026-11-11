@@ -7,10 +7,44 @@
     },
     "back-end": {
       "root": "back-end",
-      "framework": "sanity"
+      "framework": "sanity",
+      "routes": [
+        {
+          "src": "/studio",
+          "transforms": [
+            {
+              "type": "request.path",
+              "op": "set",
+              "args": "/"
+            }
+          ]
+        },
+        {
+          "src": "/studio/(.*)",
+          "transforms": [
+            {
+              "type": "request.path",
+              "op": "set",
+              "args": "/$1"
+            }
+          ]
+        }
+      ]
     }
   },
   "rewrites": [
+    {
+      "source": "/studio",
+      "destination": {
+        "service": "back-end"
+      }
+    },
+    {
+      "source": "/studio/(.*)",
+      "destination": {
+        "service": "back-end"
+      }
+    },
     {
       "source": "/(.*)",
       "destination": {
