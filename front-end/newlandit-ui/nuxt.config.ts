@@ -3,7 +3,14 @@ import { areaSitemapUrls } from './shared/data/areas'
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-06-17',
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', '@nuxtjs/i18n', '@nuxtjs/sitemap', '@vercel/speed-insights'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxt/icon',
+    '@nuxtjs/i18n',
+    '@nuxtjs/sitemap',
+    '@vercel/analytics',
+    '@vercel/speed-insights',
+  ],
 
   site: {
     url: process.env.SITE_URL || 'https://www.newlandit-solutions.com',
