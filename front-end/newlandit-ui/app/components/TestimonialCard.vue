@@ -34,6 +34,11 @@ withDefaults(defineProps<Props>(), { delay: 0 })
   border-radius: 1.5rem;
   padding: 2rem;
   transition: transform 0.2s, background 0.2s, opacity 0.5s ease;
+  /* column layout so the author row sits at the bottom of every card,
+     regardless of quote length — cards in a grid row stretch to equal height */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .testimonial-card:hover {
@@ -57,6 +62,7 @@ withDefaults(defineProps<Props>(), { delay: 0 })
 }
 
 .author-row {
+  margin-top: auto;
   display: flex;
   align-items: center;
   gap: 0.75rem;

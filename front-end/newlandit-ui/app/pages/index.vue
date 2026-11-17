@@ -340,7 +340,7 @@ const items = [
     image: '/images/agapejoycare-high-sd2l7h.png.webp',
     alt: 'Agape Joy Care logo — client of Newland IT-Solutions',
     quote: 'Newland IT helped us modernize our entire workflow. Professional, fast and always available.',
-    author: 'Sarah de Vries',
+    author: 'Nyree',
     company: 'Agape Joy Care',
   },
   {
@@ -357,7 +357,7 @@ const items = [
     image: '/images/flexxes-logo-v5_flexxes-logo-cmyk-black-standard-transparant_1600x-high.webp',
     alt: 'Flexxes logo — client of Newland IT-Solutions',
     quote: 'Finally an IT partner that speaks our language. No technical jargon, just clear solutions.',
-    author: 'Lisa Bakker',
+    author: 'Ryan Weibolt',
     company: 'Flexxes',
   },
   { image: '/images/gemeente-amsterdam-4-logo-png-transparent-high.png.webp', alt: 'Gemeente Amsterdam logo — client of Newland IT-Solutions' },
