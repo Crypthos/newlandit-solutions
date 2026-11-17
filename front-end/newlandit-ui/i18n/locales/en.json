@@ -171,7 +171,7 @@
       "items": [
         {
           "quote": "Newland IT helped us modernize our entire workflow. Professional, fast and always available.",
-          "name": "Sarah de Vries",
+          "name": "Nyree",
           "company": "Agape Joy Care"
         },
         {
@@ -181,8 +181,23 @@
         },
         {
           "quote": "Finally an IT partner that speaks our language. No technical jargon, just clear solutions.",
-          "name": "Lisa Bakker",
+          "name": "Ryan Weibolt",
           "company": "Flexxes"
+        },
+        {
+          "quote": "Quick responses and solution-focused thinking without the fuss. You can tell they know their stuff and keep their promises. Definitely a partner I would recommend.",
+          "name": "J. B.",
+          "company": "Google review (translated)"
+        },
+        {
+          "quote": "Very professional, skilled and knowledgeable. Thinks along with you and is a pleasure to work with.",
+          "name": "Maik J",
+          "company": "Google review (translated)"
+        },
+        {
+          "quote": "Great experiences with this team. A pleasant collaboration that exceeded my expectations.",
+          "name": "Lavl",
+          "company": "Google review (translated)"
         }
       ]
     },

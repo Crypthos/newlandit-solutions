@@ -93,6 +93,7 @@
 | SEO-011 | 🟡 P2 | ✅ Done | Remove shadowed custom sitemap route (`server/routes/sitemap.xml.ts` + `NL_ROUTES`); module sitemap is the live one. PR #41 merged to `development`. |
 | NWL-030 | 🟡 P2 | ✅ Done | Branded, translated error page (`app/error.vue`) — 404 + 500 previously showed Nuxt's default dark page in English. PR #46 merged to `development`. |
 | NWL-033 | 🟡 P2 | ✅ Done | Favicon from logo globe (ico/png/apple-touch) + logo links to home in Header, SideNav, MobileNav; fix "NewHeaven" alt text. PR #54 merged to `development`. |
+| NWL-034 | 🟡 P2 | 🟡 In review | Homepage testimonials: author row aligned to card bottom (equal-height cards), real contact names (Flexxes → Ryan Weibolt, Agape Joy Care → Nyree), and 3 real Google Business Profile reviews added (J. B., Maik J, Lavl). |
 
 </details>
 
