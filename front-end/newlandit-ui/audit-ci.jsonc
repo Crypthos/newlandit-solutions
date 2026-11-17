@@ -2,7 +2,7 @@
   // CI gate: fail on any high/critical advisory EXCEPT the ones allowlisted below.
   // Every entry has no patched version we can install today. Review on each dependency
   // bump and delete entries as soon as `npm audit` stops reporting them.
-  // Last reviewed: 2026-11-10.
+  // Last reviewed: 2026-11-17.
   "high": true,
   "package-manager": "npm",
   "allowlist": [
@@ -10,6 +10,9 @@
     // (4.x dropped the default export and breaks `nuxt prepare`). Dev tooling only.
     "GHSA-x6jw-m9v5-85vh",
     "GHSA-g4wm-2vf7-vfgr",
-    "GHSA-858h-whjf-mvg5"
+    "GHSA-858h-whjf-mvg5",
+    // picomatch <=4.0.7 ReDoS. No patched release is available yet; all affected
+    // paths are transitive dependencies of Nuxt/Vite tooling.
+    "GHSA-fc5q-39xc-vjpf"
   ]
 }
